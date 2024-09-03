@@ -35,21 +35,20 @@
     "context": [
       {
         "command": "jupyterlab-favorites:remove-favorite",
-        "rank": 50,
+        "rank": 0,
         "selector": ".jp-Favorites-item"
       },
       {
         "command": "jupyterlab-favorites:rename-favorite",
-        "rank": 51,
+        "rank": 1,
         "selector": ".jp-Favorites-item"
       },
       {
         "command": "jupyterlab-favorites:add-or-remove-favorite",
-        "rank": 53,
+        "rank": 3,
         "selector": ".jp-DirListing-item[data-isdir]"
       }
-    ],
-    "rank": 50
+    ]
   },
   "jupyter.lab.setting-icon": "jupyterlab-favorites:filledStar",
   "jupyter.lab.setting-icon-label": "Favorites",
@@ -67,7 +66,8 @@
       "default": true,
       "description": "Toggles the favorites widget above the filebrowser breadcrumbs.",
       "title": "Show Widget",
-      "type": "boolean"
+      "type": "boolean",
+      "rank": 50
     }
   },
   "title": "Favorites",
