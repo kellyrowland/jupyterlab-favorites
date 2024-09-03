@@ -67,7 +67,7 @@
       "description": "Toggles the favorites widget above the filebrowser breadcrumbs.",
       "title": "Show Widget",
       "type": "boolean",
-      "rank": 50
+      "rank": 101
     }
   },
   "title": "Favorites",
