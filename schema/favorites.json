@@ -48,7 +48,8 @@
         "rank": 3,
         "selector": ".jp-DirListing-item[data-isdir]"
       }
-    ]
+    ],
+    "rank": 101
   },
   "jupyter.lab.setting-icon": "jupyterlab-favorites:filledStar",
   "jupyter.lab.setting-icon-label": "Favorites",
