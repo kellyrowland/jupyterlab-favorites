@@ -35,17 +35,17 @@
     "context": [
       {
         "command": "jupyterlab-favorites:remove-favorite",
-        "rank": 0,
+        "rank": 50,
         "selector": ".jp-Favorites-item"
       },
       {
         "command": "jupyterlab-favorites:rename-favorite",
-        "rank": 1,
+        "rank": 51,
         "selector": ".jp-Favorites-item"
       },
       {
         "command": "jupyterlab-favorites:add-or-remove-favorite",
-        "rank": 3,
+        "rank": 53,
         "selector": ".jp-DirListing-item[data-isdir]"
       }
     ],
