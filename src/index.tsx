@@ -74,7 +74,7 @@ const favorites: JupyterFrontEndPlugin<IFavorites> = {
       // Insert the Favorites widget just ahead of the BreadCrumbs
       let breadCrumbsIndex = 0;
       layout.widgets.forEach((widget, index) => {
-        if (widget.node.className.includes('jp-BreadCrumbs')) {
+        if (widget.node.className.includes('jp-FileBrowser-crumbs')) {
           breadCrumbsIndex = index;
         }
       });
