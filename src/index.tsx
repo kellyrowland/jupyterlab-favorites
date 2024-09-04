@@ -76,7 +76,7 @@ const favorites: JupyterFrontEndPlugin<IFavorites> = {
       layout.widgets.forEach((widget, index) => {
         console.log(widget.node.className)
         console.log(index)
-        console.log(widget.item)
+        console.log(widget.node.childNodes)
         if (widget.node.className.includes('jp-ToolBar-item')) {
           toolbarItemIndex = index;
         }
