@@ -70,7 +70,7 @@ const favorites: JupyterFrontEndPlugin<IFavorites> = {
         filebrowser
       );
       const layout = filebrowser.layout as PanelLayout;
-      layout.insertWidget(0, favoritesWidget);
+      layout.insertWidget(1, favoritesWidget);
 
       const breadcrumbs = filebrowser.node.querySelector(
         `.${BREADCRUMBS_CLASS}`
