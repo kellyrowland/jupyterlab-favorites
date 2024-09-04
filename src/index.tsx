@@ -66,8 +66,8 @@ const favorites: JupyterFrontEndPlugin<IFavorites> = {
 
     if (filebrowser) {
       const favoritesWidget = new FavoritesWidget(
-        filebrowser,
-        favoritesManager
+        favoritesManager,
+        filebrowser
       );
       const layout = filebrowser.layout as PanelLayout;
       //layout.insertWidget(1, favoritesWidget);
