@@ -72,16 +72,17 @@ const favorites: JupyterFrontEndPlugin<IFavorites> = {
       const layout = filebrowser.layout as PanelLayout;
       //layout.insertWidget(1, favoritesWidget);
       // Insert the Favorites widget just ahead of the BreadCrumbs
-      let toolbarItemIndex = 0;
-      layout.widgets.forEach((widget, index) => {
-        console.log(widget.node.className)
-        console.log(index)
-        console.log(widget.node.childNodes)
-        if (widget.node.className.includes('jp-ToolBar-item')) {
-          toolbarItemIndex = index;
-        }
-      });
-      layout.insertWidget(toolbarItemIndex, favoritesWidget);
+      // let toolbarItemIndex = 0;
+      // layout.widgets.forEach((widget, index) => {
+      //   console.log(widget.node.className)
+      //   console.log(index)
+      //   console.log(widget.node.childNodes)
+      //   if (widget.node.className.includes('jp-ToolBar-item')) {
+      //     toolbarItemIndex = index;
+      //   }
+      // });
+      // layout.insertWidget(toolbarItemIndex, favoritesWidget);
+      filebrowser.addWidget(favoritesWidget);
 
       const breadcrumbs = filebrowser.node.querySelector(
         `.${BREADCRUMBS_CLASS}`
