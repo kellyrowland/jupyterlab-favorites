@@ -74,6 +74,8 @@ const favorites: JupyterFrontEndPlugin<IFavorites> = {
       // Insert the Favorites widget just ahead of the BreadCrumbs
       let toolbarItemIndex = 0;
       layout.widgets.forEach((widget, index) => {
+        console.log(widget.node.className)
+        console.log(index)
         if (widget.node.className.includes('jp-ToolBar-item')) {
           toolbarItemIndex = index;
         }
