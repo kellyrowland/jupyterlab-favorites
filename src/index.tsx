@@ -69,7 +69,7 @@ const favorites: JupyterFrontEndPlugin<IFavorites> = {
         favoritesManager,
         filebrowser
       );
-      const layout = filebrowser.layout as PanelLayout;
+      //const layout = filebrowser.layout as PanelLayout;
       //layout.insertWidget(1, favoritesWidget);
       // Insert the Favorites widget just ahead of the BreadCrumbs
       // let toolbarItemIndex = 0;
