@@ -10,7 +10,8 @@ import {
 import { IMainMenu } from '@jupyterlab/mainmenu';
 import { ISettingRegistry } from '@jupyterlab/settingregistry';
 import { ReactWidget, UseSignal, folderIcon } from '@jupyterlab/ui-components';
-import { Menu, PanelLayout, Widget } from '@lumino/widgets';
+// import { Menu, PanelLayout, Widget } from '@lumino/widgets';
+import { Menu, Widget } from '@lumino/widgets';
 import React from 'react';
 import { FavoritesBreadCrumbs, FavoritesWidget } from './components';
 import { starIcon } from './icons';
